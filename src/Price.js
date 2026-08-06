@@ -2,7 +2,11 @@ import React from 'react'
 import product from './product'
 
 function Price() {
-  return product.prix
+  return (
+    <span className='fs-5'>
+      {product.prix} F
+    </span>
+  )
 }
 
 export default Price

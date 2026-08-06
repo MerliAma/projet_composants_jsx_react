@@ -2,7 +2,12 @@ import React from 'react'
 import product from './product'
 
 function Name() {
-  return product.nom
+  return (
+    <h2>
+      {product.nom}
+    </h2>
+    
+  )
 }
 
 export default Name
