@@ -36,21 +36,24 @@ function App() {
 
       {/* Affiche le nom de l'utilisateur et une image */}
       <Alert show={show} variant="success" style={{ width: '30rem' }} className='mx-auto mt-3' > 
-        <div className='d-flex align-content-center justify-content-between py-3'>
-          <Alert.Heading className='mb-3'>Bonjour, {NomUser} </Alert.Heading>
-          <Figure>
-            <Figure.Image
-              width={171}
-              height={180}
-              alt="171x180"
-              src="holder.js/171x180"
-            />
+        <div className='d-flex align-content-center justify-content-between py-3 align-items-center'>
+          <Alert.Heading className='mb-1 fs-2'>Bonjour, {NomUser} !</Alert.Heading>
+          {
+            (NomUser!=="ici") &&
+            <Figure>
+              <Figure.Image
+                width={171}
+                height={150}
+                alt="Bienvenue"
+                src="ImgBienvenue.jpg"
+              />
           </Figure>
+          }
         </div>
         <hr />
         <div className="d-flex justify-content-end">
           <Button onClick={() => setShow(false)} variant="outline-success">
-            Close me
+            Fermer
           </Button>
         </div>
       </Alert>
