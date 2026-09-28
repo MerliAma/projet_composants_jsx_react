@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Instructions
+     Installez NodeJS et VSCode à partir des liens suivants :
+
+o https://code.visualstudio.com/
+
+o https://nodejs.org/en
+
+• Créez une application React en utilisant la commande ` npx create-react-app <nom-du-projet>` (assurez-vous de remplacer <nom-du-projet> par le nom de votre projet).
+
+Après avoir créé l'application React, supprimez tous les fichiers du dossier « src » à l'exception de reportWebVitals.js et index.js.
+
+Créez un nouveau fichier nommé App.js contenant le composant App de ce projet. Veillez à importer tous les éléments nécessaires, y compris react-bootstrap .
+
+• Consultez la documentation de react-bootstrap, accédez à la page Web « Démarrer », puis installez et importez les modules nécessaires comme indiqué dans les étapes.
+
+· Dans le composant App, créez un fragment React (recherchez des fragments React et leurs utilisations), et créez à l'intérieur une div avec la classe « App ».
+
+· À l'intérieur de la div, utilisez react-bootstrap pour créer une barre de navigation, un titre et 3 cartes (recherchez « barres de navigation, cartes et titre » dans react-bootstrap).
+
+Une fois terminé, exécutez votre projet à l'aide de la commande ` npm start .`
+
+Pour toute référence, veuillez consulter les éléments suivants :
+
+o https://react.dev/
+
+o https://react-bootstrap.github.io/
