@@ -70,28 +70,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ## Instructions
-     Installez NodeJS et VSCode à partir des liens suivants :
+ · Créez un projet à l'aide de create-react-app
 
-o https://code.visualstudio.com/
+Créez un fichier App.js dans le dossier src et utilisez-le comme composant racine pour votre application React.
 
-o https://nodejs.org/en
+Créez un fichier nommé product.js contenant un objet JSON avec le nom, le prix, la description et le chemin d'accès ou l'URL d'une image du produit. (N'oubliez pas d'exporter l'objet JSON.)
 
-• Créez une application React en utilisant la commande ` npx create-react-app <nom-du-projet>` (assurez-vous de remplacer <nom-du-projet> par le nom de votre projet).
+Créez quatre composants qui renvoient le nom, le prix, la description et l'image du produit. (Name.js, Price.js, Description.js et Image.js)
 
-Après avoir créé l'application React, supprimez tous les fichiers du dossier « src » à l'exception de reportWebVitals.js et index.js.
+Exportez tous vos composants afin qu'ils puissent être utilisés dans le composant racine (dans App.js).
 
-Créez un nouveau fichier nommé App.js contenant le composant App de ce projet. Veillez à importer tous les éléments nécessaires, y compris react-bootstrap .
+• Importez l'objet JSON créé précédemment dans tous les nouveaux composants créés.
 
-• Consultez la documentation de react-bootstrap, accédez à la page Web « Démarrer », puis installez et importez les modules nécessaires comme indiqué dans les étapes.
+Créez une carte contenant tous les composants créés à l'aide de react-bootstrap dans votre fichier App.js.
 
-· Dans le composant App, créez un fragment React (recherchez des fragments React et leurs utilisations), et créez à l'intérieur une div avec la classe « App ».
+• Affichez un message sous la carte indiquant « Bonjour », puis votre prénom, ou si vous n’avez pas encore indiqué votre prénom, affichez « Bonjour ! » (Vous pouvez indiquer votre nom comme variable au-dessus du composant racine)
 
-· À l'intérieur de la div, utilisez react-bootstrap pour créer une barre de navigation, un titre et 3 cartes (recherchez « barres de navigation, cartes et titre » dans react-bootstrap).
+Afficher une image si le prénom est fourni.
 
-Une fois terminé, exécutez votre projet à l'aide de la commande ` npm start .`
-
-Pour toute référence, veuillez consulter les éléments suivants :
-
-o https://react.dev/
-
-o https://react-bootstrap.github.io/
+Faites preuve d'un maximum de créativité dans votre style !
